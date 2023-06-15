@@ -13,6 +13,9 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
+        <p>
+          I'm adding this section to test the ability of jenkins in building new changes come to the repository.
+        </p>
       </div>
     );
   }
