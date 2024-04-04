@@ -1,7 +1,7 @@
 pipeline {
     agent {
         docker {
-            image 'jenkins/agent:latest-jdk17'
+            image 'alpine/socat'
             args '-p 3000:3000'
         }
     }
