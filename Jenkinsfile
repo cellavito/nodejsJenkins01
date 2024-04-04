@@ -1,5 +1,10 @@
 pipeline {
-agent any
+    agent {
+        docker {
+            image 'alpine/socat'
+            args '-p 3000:3000'
+        }
+    }
      environment {
             CI = 'true'
         }
