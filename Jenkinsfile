@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        alpineagent {
+        dockerContainer {
             image 'alpine/socat'
             args '-p 3000:3000'
         }
